@@ -1,7 +1,7 @@
 {
   "title": "Context Graph Recommendation Engine Experiment",
-  "name": "heatmap",
-  "version": "0.0.2",
+  "name": "context-graph-history-shield-study",
+  "version": "1.0.0",
   "description": "Capture browser events for the Context Graph",
   "main": "lib/index.js",
   "author": "",
@@ -42,6 +42,6 @@
   "scripts": {
     "compile": "jpm xpi",
     "addons-linter": "npm run compile; addons-linter --output json --pretty *xpi",
-    "test": "./node_modules/.bin/eslint 'lib/**' 'data/**' && npm addons-linter"
+    "test": "./node_modules/.bin/eslint '{lib,data,test}/**' && npm run addons-linter && jpm test"
   }
 }
