@@ -1,13 +1,12 @@
 {
   "title": "Context Graph Experiment",
   "name": "context-graph-history-shield-study",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Capture browser events for the Context Graph",
   "main": "lib/index.js",
   "author": "",
   "engines": {
     "firefox": ">=38.0a1",
-    "fennec": ">=38.0a1"
   },
   "license": "MIT",
   "preferences": [
